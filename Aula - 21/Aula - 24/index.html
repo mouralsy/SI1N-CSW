@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meu documento JavaScript</title>
+
+    <script type="text/JavaScript">
+        /*window.alert("Olá, meu código javaScript!")*/
+        </script>
+
+<Style>
+        div
+    {
+        border: 1px solid black;
+        text-align: center;
+        height: 70px;
+        width: 200px;
+        background-color: rgb(205, 245, 245);
+    }
+
+</Style>
+</head>
+
+<body>
+
+    <br>
+    <label>Nome:</label>
+    <input id="inputUsuario" size="30"> <button onclick="enviarResposta()">Enviar</button>
+    <br>
+    <br>
+
+    <label>Sobrenome:</label>
+    <input id="inputUsuario2" size="30"> 
+    <br>
+
+    <script ype="text/JavaScript">
+        function enviarResposta() {
+
+            var IU = document.getElementById('inputUsuario2').value;
+
+            var UI = document.getElementById('inputUsuario').value;
+            window.alert('O nome é ' + UI + ', ' + IU);
+        }
+        <div onmouseover="'O nome é ' + UI + ', ' + IU">
+        </div>
+    </script>
+    <br>
+<div onmouseover="'O nome é ' + UI + ', ' + IU">
+</div>
+
+</body>
+
+</html>
